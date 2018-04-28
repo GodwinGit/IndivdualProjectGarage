@@ -1,0 +1,35 @@
+<div class="container pad-top">
+  <table class="table garagetable">
+      <tr>
+          <td><h3>Details for {{garage.name}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Name</td>
+          <td>{{garage.name}}</td>
+      </tr>
+      <tr>
+          <td>Description</td>
+          <td>{{garage.description}}</td>
+      </tr>
+      <tr>
+          <td>Vehicle Condition</td>
+          <td>{{garage.condition}}</td>
+      </tr>
+      <tr>
+          <td>Type of Vehicle</td>
+          <td>{{garage.type}}</td>
+      </tr>
+      <tr>
+          <td>Litre of Vehicle</td>
+          <td>{{garage.litre}}</td>
+      </tr>
+      <tr>
+          <td>Age of Vehicle</td>
+          <td>{{garage.age}}, {{garage.age}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editGarage({id:garage.id})">Edit</a>
+  </div>
+</div>
