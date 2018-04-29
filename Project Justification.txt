@@ -1,0 +1,10 @@
+Why i used SpringBoot?
+reason why i used Spring Boot to build my application instead of JavaEE was because:
+The Spring framework provides flexibility to configure beans in multiple ways such as XML, Annotations, and JavaConfig, also the Spring framework was created as a Dependency Injection container,
+the framework allowed me too inject all the tools i needed to build the application quickly and effectively. 
+
+Why Angularjs
+Using angular framework my code is be more clean, maintainable, scalable, testable and understandable. Angularjs has Two-Way data binding, meaning whenever the model value changes, the view is automatically updated, 
+this is very easy as it means less work for the developer. Also i used Angularjs, because there were various different templates i could use to simply develop my own front end and keep my code structured.
+
+ 
